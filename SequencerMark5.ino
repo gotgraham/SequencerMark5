@@ -1,12 +1,10 @@
 /*
-  SEQ5_noPIN_Itsy
-  TX sequencer for 222 MHz 10W transverter
+  W1GHZ Mark 5 Sequencer
   Arduino ItsyBitsy 32U4 3V
 
   Sequence: RX disable -> TR relay -> PA power -> TX enable
-  No RF sense input; AMP+ powers XVTR TX and bias to 10W module.
-
-  v1.0  1/1/2020  pcw  (based on SEQ4 for 432 MHz XVTR, 3/23/2019)
+  No RF sense input; AMP+ powers XVTR TX
+  Updates by KC7WXD
 */
 
 // #define DEBUG   // Uncomment for slowed-down visual debugging
